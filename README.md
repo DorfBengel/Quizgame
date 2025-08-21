@@ -1,6 +1,6 @@
 # Quiz-Anwendung - Vollständige Java-Swing-Anwendung
 
-Eine professionelle Java-Swing-Anwendung zur Verwaltung von Quiz-Themen, -Fragen und -Statistiken mit moderner MVC-Architektur, umfassender Funktionalität und erweiterten Konfigurationsmöglichkeiten.
+Eine  Java-Swing-Anwendung zur Verwaltung von Quiz-Themen, -Fragen und -Statistiken mit moderner MVC-Architektur, umfassender Funktionalität und erweiterten Konfigurationsmöglichkeiten.
 
 ## 🎯 Übersicht
 
