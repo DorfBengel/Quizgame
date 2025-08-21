@@ -53,8 +53,8 @@ public class PropertiesLoader {
 
 	private static void setDefaultProperties() {
 		// Datenbank-Konfiguration über Enums
-		properties.setProperty("quiz.database.type", "sqlite"); // Standard: SQLite
-		properties.setProperty("quiz.database.config", "development"); // Standard: Entwicklungsumgebung
+		properties.setProperty("quiz.database.type", "lokal"); // Standard: Lokale Speicherung
+		properties.setProperty("quiz.database.config", "local"); // Standard: Lokale Speicherung
 		properties.setProperty("quiz.database.sqlite.file", "quiz_datenbank.db");
 		properties.setProperty("quiz.database.mariadb.host", "localhost");
 		properties.setProperty("quiz.database.mariadb.port", "3306");
