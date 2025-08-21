@@ -4,12 +4,12 @@ Eine  Java-Swing-Anwendung zur Verwaltung von Quiz-Themen, -Fragen und -Statisti
 
 ## 🎯 Übersicht
 
-Die Quiz-Anwendung ist eine vollständige Lernplattform, die es Benutzern ermöglicht:
+Eine Quiz-Anwendung die es Benutzern ermöglicht:
 - **Quiz-Themen** zu erstellen und zu verwalten
 - **Fragen mit Antworten** zu verschiedenen Themen zu erstellen
 - **Quiz zu spielen** mit Punktezählung und Zeitmessung
 - **Detaillierte Statistiken** über Lernfortschritt zu erhalten
-- **Mehrere Datenbanktypen** zu unterstützen (SQLite, MariaDB, Lokal)
+- **Mehrere Datenbanktypen** zu unterstützen (SQLite, MariaDB, Lokal/Serialisierung)
 - **Responsive UI** mit automatischen Anpassungen
 - **Event-System** für lose Kopplung zwischen Komponenten
 
