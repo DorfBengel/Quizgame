@@ -172,7 +172,7 @@ public class PropertiesLoader {
 	 * Gibt die aktuelle Datenbankkonfiguration als Enum zurück.
 	 */
 	public static DatabaseConfig getDatabaseConfig() {
-		String configKey = getProperty("quiz.database.config", "development");
+		String configKey = getProperty("quiz.database.config", "local");
 		return DatabaseConfig.fromConfigKey(configKey);
 	}
 	
