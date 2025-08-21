@@ -141,7 +141,7 @@ controllerFactory.startAllControllers();
 
 ### Voraussetzungen
 - **Java 8 oder höher**
-- **JDBC-Treiber** (im `lib/` Verzeichnis enthalten)
+- **JDBC-Treiber**
   - `mariadb-java-client-3.5.5.jar`
   - `sqlite-jdbc-3.36.0.3.jar`
 
