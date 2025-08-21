@@ -22,25 +22,25 @@ Die Quiz-Anwendung folgt dem **MVC (Model-View-Controller) Pattern** mit einer *
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    Präsentationsschicht (GUI)              │
-│                     ───────────────                        │
-│  MainFrame → QuizTabPane → AbstractMainPanel → Panels     │
-│                    ↓                                       │
-│              MVC-Controller                                │
+│                    Präsentationsschicht (GUI)               │
+│                     ───────────────                         │
+│  MainFrame → QuizTabPane → AbstractMainPanel → Panels       │
+│                    ↓                                        │
+│              MVC-Controller                                 │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                   Geschäftslogik-Schicht                   │
-│                     ───────────────                        │
-│  QuizApplication → Services → EventManager → EventSystem   │
+│                   Geschäftslogik-Schicht                    │
+│                     ───────────────                         │
+│  QuizApplication → Services → EventManager → EventSystem    │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                      Daten-Schicht                         │
-│                     ───────────────                        │
-│  RepositoryFactory → QuizRepository → Persistence Layer   │
+│                      Daten-Schicht                          │
+│                     ───────────────                         │
+│  RepositoryFactory → QuizRepository → Persistence Layer     │
 └─────────────────────────────────────────────────────────────┘
 ```
 
