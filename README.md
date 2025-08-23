@@ -1,4 +1,4 @@
-# Quiz-Anwendung - Vollständige Java-Swing-Anwendung
+# Quiz-Game - Java-Swing-Anwendung
 
 Eine  Java-Swing-Anwendung zur Verwaltung von Quiz-Themen, -Fragen und -Statistiken mit moderner MVC-Architektur, umfassender Funktionalität und erweiterten Konfigurationsmöglichkeiten.
 
