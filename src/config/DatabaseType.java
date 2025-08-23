@@ -163,7 +163,7 @@ public enum DatabaseType {
      */
     public static DatabaseType fromConfigKey(String configKey) {
         if (configKey == null) {
-            return SQLITE; // Standard
+            return LOKAL; // Standard;
         }
         
         for (DatabaseType type : values()) {

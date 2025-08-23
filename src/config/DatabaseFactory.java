@@ -144,7 +144,7 @@ public class DatabaseFactory {
      * Gibt den aktuell konfigurierten Datenbanktyp zurück.
      */
     public DatabaseType getCurrentDatabaseType() {
-        String dbTypeStr = propertiesLoader.getProperty("quiz.database.type", "sqlite");
+        String dbTypeStr = propertiesLoader.getProperty("quiz.database.type", "lokal");
         return DatabaseType.fromConfigKey(dbTypeStr);
     }
     
@@ -152,7 +152,7 @@ public class DatabaseFactory {
      * Gibt die aktuelle Datenbankkonfiguration zurück.
      */
     public DatabaseConfig getCurrentDatabaseConfig() {
-        String configKey = propertiesLoader.getProperty("quiz.database.config", "development");
+        String configKey = propertiesLoader.getProperty("quiz.database.config", "local");
         return DatabaseConfig.fromConfigKey(configKey);
     }
     
