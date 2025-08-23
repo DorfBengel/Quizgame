@@ -198,16 +198,16 @@ quiz.logging.file=quiz.log
 
 ### Umgebungskonfiguration
 ```properties
-# Development (Standard)
+# Development (SQLite)
 quiz.database.config=development
 
-# Production
+# Production (MariaDB)
 quiz.database.config=production
 
-# Testing
+# Testing (SQLite)
 quiz.database.config=testing
 
-# Local
+# Local (Standard,Serialisierung)
 quiz.database.config=local
 ```
 
