@@ -13,6 +13,45 @@ Eine Quiz-Anwendung die es Benutzern ermöglicht:
 - **Responsive UI** mit automatischen Anpassungen
 - **Event-System** für lose Kopplung zwischen Komponenten
 
+## 📦 Installation
+
+### Voraussetzungen
+
+- Java 8 oder höher
+- Mindestens 512MB RAM
+- 100MB freier Speicherplatz
+
+### Download und Setup
+
+1. **Repository klonen oder herunterladen**
+   ```bash
+   git clone [repository-url]
+   cd Quizgame
+   ```
+
+2. **Java-Kompilierung und Anwendung starten (ggf. vorher application.properties anpassen)**
+
+   *a) Linux-Build
+   # Alle .java Dateien kompilieren und optional starten
+   ```bash
+   chmod u+x linux-build.sh linux-run.sh
+   ./linux-build.sh
+   ```
+   # Linux-Anwendung starten
+    ```bash
+   .\linux-run.sh
+    ```
+    
+   *b) Windows-Build
+   # Alle .java Dateien kompilieren und optional starten
+    ```bash
+   .\windows-build.bat
+   ```
+   # Anwendung starten
+    ```bash
+   .\windows-run.bat
+    ```
+
 ## 🏗️ Projektarchitektur
 
 ### Schichten-Struktur (MVC Pattern)
@@ -314,7 +353,7 @@ public class NeuerController extends AbstractController {
 ### Event-Logging
 Alle Events werden automatisch geloggt:
 ```
-Event gefeuert: FRAGE_CREATED von FrageService um $TIMESTAMP
+Event gefeuert: FRAGE_CREATED von FrageService um 2024-01-15T10:30:45
 ```
 
 ### Controller-Status
@@ -359,6 +398,10 @@ System.out.println(status);
 ## 📝 Lizenz
 
 Dieses Projekt ist für Bildungszwecke erstellt und dient als Beispiel für moderne Java-Entwicklung mit Swing und MVC-Architektur.
+
+- [LICENSE]
+
+- Third-Party Licenses -> [THIRD_PARTY_LICENSES.md]
 
 ## 🤝 Beitragen
 
