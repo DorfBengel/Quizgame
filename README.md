@@ -378,7 +378,7 @@ Dieses Projekt ist für Bildungszwecke erstellt und dient als Beispiel für mode
 
 - [LICENSE](./LICENSE)
 
-- Third-Party Licenses -> [THIRD_PARTY_LICENSES.md](./THIRD_PARTY_LICENSES)
+- Third-Party Licenses -> [THIRD_PARTY_LICENSES.md](./THIRD_PARTY_LICENSES.md)
 
 ## 🤝 Beitragen
 
