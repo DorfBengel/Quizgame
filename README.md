@@ -176,29 +176,6 @@ controllerFactory.startAllControllers();
 - **Umgebungsspezifische Einstellungen**
 - **Validierung der Konfiguration** vor Anwendungsstart
 
-## 📦 Installation und Ausführung
-
-### Voraussetzungen
-- **Java 8 oder höher**
-- **JDBC-Treiber**
-  - `mariadb-java-client-3.5.5.jar`
-  - `sqlite-jdbc-3.36.0.3.jar`
-
-### Kompilierung
-```bash
-# Alle Java-Dateien kompilieren
-find src -name "*.java" -print0 | xargs -0 javac -cp "lib/*:src" -d bin
-
-# .class-Dateien aus src-Verzeichnis entfernen (falls vorhanden)
-find src -name "*.class" -delete
-```
-
-### Ausführung
-```bash
-# Anwendung starten
-java -cp "bin:lib/*" gui.MainFrame
-```
-
 ### Konfiguration
 Die Anwendung wird über `src/config/application.properties` konfiguriert:
 
@@ -399,9 +376,9 @@ System.out.println(status);
 
 Dieses Projekt ist für Bildungszwecke erstellt und dient als Beispiel für moderne Java-Entwicklung mit Swing und MVC-Architektur.
 
-- [LICENSE]
+- [LICENSE](./LICENSE)
 
-- Third-Party Licenses -> [THIRD_PARTY_LICENSES.md]
+- Third-Party Licenses -> [THIRD_PARTY_LICENSES.md](./THIRD_PARTY_LICENSES)
 
 ## 🤝 Beitragen
 
